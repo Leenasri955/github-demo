@@ -1,1 +1,1 @@
-raise Exception("Application failed!")
+print("hello")
