@@ -1,1 +1,1 @@
-print("Hello from the docker")
+raise Exception("Application failed!")
