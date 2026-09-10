@@ -1,14 +1,14 @@
-name:Docker image build using github actions
+name: Docker Build
 
 on:
   push:
-    branch:
-      -master
-      -github-actions-test
+    branches:
+      - master
+      - github-actions-test
 
 jobs:
   docker-build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
